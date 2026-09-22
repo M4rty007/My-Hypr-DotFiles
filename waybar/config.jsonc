@@ -1,0 +1,52 @@
+{
+    "layer": "top",
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    
+    "modules-center": [
+        "clock"
+    ],
+    
+    "modules-right": [
+        "pulseaudio", 
+        "cava",
+        "battery"
+    ],
+
+    "battery": {
+    	"interval": 60,
+    	"format": "{capacity}% {icon}",
+    	"format-icons": {
+    		"default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    		"charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+    	}
+    },
+
+        "pulseaudio": {
+    	"format": "{volume}% {icon}",
+    	"format-bluetooth": "{volume}% {icon}",
+    	"format-muted": "",
+    	"format-icons": {
+    		"default": ["", "", ""]
+    	},
+    	"scroll-step": 1,
+    	"on-click": "pavucontrol"
+    },
+
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+
+    "hyprland/workspaces": {
+	    "format": "{name}",
+	    "format-icons": {
+		    "1": "",
+		    "2": "",
+		    "3": "",
+		    "4": "",
+		    "5": "",
+            "6": ""
+        }
+    }
+}

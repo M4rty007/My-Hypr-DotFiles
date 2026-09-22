@@ -1,0 +1,27 @@
+@import "colors/colors.css";
+
+* {
+    all: unset;
+    font-family: "Iosevka Nerd Font Propo", monospace;
+}
+
+window#waybar {
+    background-color: #326069;
+    color: #c9c9e7;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#workspaces {
+    min-width: 10px;
+    font-size: 1rem;
+    padding: 2px 4px;
+}
+
+#workspaces button {
+    background-color: #c9c9e7;
+    color: transparent;
+    padding: 0 3px;
+    border-radius: 50px;
+    margin: 0 2px;
+    min-width: 4px;
+}
